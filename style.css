@@ -18,12 +18,11 @@ header{
     justify-content: space-between;
     position: fixed;
     z-index: 10;
-    top: 10px;
+    top: 0;
 }
 .material-symbols-outlined{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +31,19 @@ header{
     background-color:#33793f ;
     font-size: 24px;
     color: #fff257;
+    border-radius: 50%;
+    margin-top:10px     
+}
+
+#left-col{
+    background-color: #33793f;
+    height: 100vh;
+    padding-top: 10px;
+}
+#newspaper{
+    color: #fff257;
+    background-color:#33793f ;
+    
 }
 
 section{
@@ -40,9 +52,12 @@ section{
     gap:100px 20px;
     flex-wrap: wrap;
     margin-top:40px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .card{
+    width: 30%;
     padding: 20px 20px 60px;
     position: relative;
     color: #33793f;
@@ -77,6 +92,13 @@ section{
     border: none;
     width: 100%;
     height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .subcribe:hover{
     font-size: 14px;
